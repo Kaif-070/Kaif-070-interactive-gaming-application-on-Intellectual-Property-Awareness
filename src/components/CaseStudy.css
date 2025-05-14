@@ -1,0 +1,215 @@
+.casestudy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3, #ff9a9e);
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.casestudy-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+.casestudy-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.casestudy-subtitle {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.casestudy-start-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background 0.3s;
+}
+
+.casestudy-start-btn:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.casestudy-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.casestudy-option-btn {
+  background: white;
+  color: black;
+  padding: 12px;
+  margin: 6px;
+  width: 90%;
+  max-width: 300px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.casestudy-option-btn:hover {
+  background: #f0f0f0;
+  border-color: #007bff;
+}
+
+.casestudy-option-btn.correct {
+  background: #28a745;
+  color: white;
+}
+
+.casestudy-option-btn.wrong {
+  background: #dc3545;
+  color: white;
+}
+
+.casestudy-result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.casestudy-result h2 {
+  font-size: 22px;
+  color: #28a745;
+}
+
+.casestudy-result p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.casestudy-restart-btn,
+.casestudy-home-btn {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.casestudy-restart-btn:hover {
+  background: #e63946;
+  transform: scale(1.05);
+}
+
+.casestudy-home-btn {
+  background: #28a745;
+}
+
+.casestudy-home-btn:hover {
+  background: #218838;
+  transform: scale(1.05);
+}
+
+.casestudy-next-btn {
+  background: #007bff;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.casestudy-next-btn:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.casestudy-hint-container {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.casestudy-hint-btn {
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.casestudy-hint-btn:hover {
+  background-color: #e6b800;
+}
+
+.casestudy-hint-btn.disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+.casestudy-hint-text {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 10px;
+  font-size: 14px;
+  border-left: 4px solid #ffcc00;
+  border-radius: 6px;
+  margin-top: 10px;
+  text-align: center;
+  animation: casestudy-fadeOut 5s forwards;
+}
+
+@keyframes casestudy-fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.casestudy-achievements {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.casestudy-achievement {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 8px;
+  display: inline-block;
+  animation: casestudy-glow 1s infinite alternate;
+}
+
+@keyframes casestudy-glow {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 255, 0, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 15px rgba(255, 255, 0, 1);
+  }
+}

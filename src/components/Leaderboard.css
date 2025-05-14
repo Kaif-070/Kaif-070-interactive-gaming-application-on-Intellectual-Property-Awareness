@@ -1,0 +1,91 @@
+.leaderboard-container {
+    max-width: 600px;
+    margin: 80px auto 20px; 
+    padding: 20px;
+    background: #222741; 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff; 
+  }
+  
+  .leaderboard-container h2 {
+    color: #ffd700; 
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 12px;
+    border-bottom: 2px solid #444; 
+    font-size: 18px;
+  }
+  
+  .leaderboard-table th {
+    background: #ff4500; 
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .leaderboard-table tr:nth-child(even) {
+    background: #33395d; 
+  }
+  
+  .leaderboard-table tr:nth-child(odd) {
+    background: #282c4a; 
+  }
+  
+  .leaderboard-table tr:hover {
+    background: #ff6347; 
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .leaderboard-table td {
+    color: #fff; 
+  }
+
+  .jigsaw-progress-bar {
+    width: 80%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .celebration-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 214, 10, 0.9);
+    color: #4a4a4a;
+    padding: 50px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    animation: fade-in 0.5s ease-in-out, bounce 1s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% { transform: translate(-50%, -50%) scale(1); }
+    100% { transform: translate(-50%, -50%) scale(1.1); }
+  }
+  

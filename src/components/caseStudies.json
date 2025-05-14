@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "title": "Google vs. Oracle - Java API Copyright Case",
+    "level": "Basic",
+    "description": "Google used Oracle's Java APIs in Android without a license. Oracle sued Google, claiming copyright infringement. The case went to the U.S. Supreme Court.",
+    "questions": [
+      {
+        "question": "Which type of intellectual property was involved in this case?",
+        "options": ["Patent", "Trademark", "Copyright", "Trade Secret"],
+        "answer": "Copyright",
+        "hint": "It protects creative works like books, music, and software."
+      },
+      {
+        "question": "What was the final ruling by the U.S. Supreme Court?",
+        "options": [
+          "Google won, as it was fair use",
+          "Oracle won, as it was copyright infringement",
+          "Both settled out of court",
+          "No final decision was made"
+        ],
+        "answer": "Google won, as it was fair use",
+        "hint": "The ruling favored software developers' ability to reuse APIs."
+      },
+      {
+        "question": "What is fair use in copyright law?",
+        "options": [
+          "Using copyrighted material freely",
+          "Using copyrighted material under specific conditions",
+          "Selling copyrighted material without permission",
+          "Ignoring copyright laws"
+        ],
+        "answer": "Using copyrighted material under specific conditions",
+        "hint": "Fair use allows limited use of copyrighted material under legal conditions."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Apple vs. Samsung - Smartphone Patent War",
+    "level": "Intermediate",
+    "description": "Apple sued Samsung for infringing on iPhone design patents, claiming Samsung copied its product look and feel.",
+    "questions": [
+      {
+        "question": "Which type of intellectual property was the focus of this lawsuit?",
+        "options": ["Copyright", "Patent", "Trademark", "Trade Secret"],
+        "answer": "Patent",
+        "hint": "It protects inventions and product designs."
+      },
+      {
+        "question": "What was the outcome of this lawsuit?",
+        "options": [
+          "Apple won and Samsung had to pay damages",
+          "Samsung won and Apple had to pay damages",
+          "The case was dismissed",
+          "The companies merged"
+        ],
+        "answer": "Apple won and Samsung had to pay damages",
+        "hint": "The court ruled that Samsung copied Apple’s product design."
+      },
+      {
+        "question": "What does a patent protect?",
+        "options": [
+          "A company's logo",
+          "An invention or design",
+          "A secret formula",
+          "A book or movie"
+        ],
+        "answer": "An invention or design",
+        "hint": "It grants exclusive rights to an inventor for their creation."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "TikTok Data Privacy Concerns",
+    "level": "Advanced",
+    "description": "TikTok faced scrutiny over user data privacy and potential intellectual property violations in the U.S.",
+    "questions": [
+      {
+        "question": "What major concern was raised regarding TikTok?",
+        "options": [
+          "Copyright infringement",
+          "Patent violation",
+          "Data privacy and security",
+          "Trademark dispute"
+        ],
+        "answer": "Data privacy and security",
+        "hint": "It relates to how user information is collected and stored."
+      },
+      {
+        "question": "Which law governs data privacy in the U.S.?",
+        "options": [
+          "GDPR",
+          "DMCA",
+          "CIPA",
+          "CCPA"
+        ],
+        "answer": "CCPA",
+        "hint": "This law protects California residents' online privacy."
+      },
+      {
+        "question": "What is the main purpose of the GDPR?",
+        "options": [
+          "To regulate AI development",
+          "To protect user data privacy",
+          "To prevent patent infringement",
+          "To enforce copyright laws"
+        ],
+        "answer": "To protect user data privacy",
+        "hint": "It is a European regulation that safeguards personal data."
+      }
+    ]
+  }
+]
